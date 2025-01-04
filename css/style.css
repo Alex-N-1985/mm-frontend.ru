@@ -1,6 +1,123 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2%;
+    font-family: sans-serif;
+    font-size: 0;    
+}
+
+header {
+    width: 90%;
+    padding: 2.5%;
+    background-image: linear-gradient(gray, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;    
+}
+
+.header__cats {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;        
+}
+
+.header__cats p a {
+    font-size: 20px;
+    font-weight: normal;
+    color: gray;
+    text-align: right;
+    text-decoration: none;
+}
+
+.headerup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerup__logo img {
+    width: 40%;
+}
+
+.headerup__usericons {
+    width: 10%;
+    margin-right: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerup__usericons img:hover {
+    border: 3px solid #333333;
+    border-radius: 50%;
+}
+
+main {
+    width: 90%;
+    padding: 2.5%;
+    border: 1px solid black;
+}
+
+.statpage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.statpage h2 {
+    width: 100%;
+    font-size: 48px;
+    color: #333333;
+    text-align: center;
+}
+
+.statpage__content {
+    width: 100%;
+    font-size: 20px;
+    color: #333333;
+    text-align: left;
+}
+
 footer {
+    width: 90%;
+    padding: 2.5%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     border: 1px solid black;    
+}
+
+.footer__columns h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;    
+}
+
+.footer__columns p {
+    margin-top: 18px;
+}
+
+.footer__columns p a {
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+    text-decoration: none;
+    text-align: left;        
+}
+
+.header__cats p a:hover, .footer__columns p a:hover{
+    font-weight: bold;
+    text-decoration: underline;
 }
