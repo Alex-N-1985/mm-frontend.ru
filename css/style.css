@@ -49,18 +49,18 @@ header {
     width: 40%;
 }
 
-.searchField {
+.searchfield {
     display: none;
     justify-content: center;
     align-items: center;
 }
 
-.searchField input {
+.searchfield input {
     height: 25px;
-    width: 80%;
+    width: 300px;
 }
 
-.searchField button {
+.searchfield button {
     display: flex;
     justify-content: center;
     align-items: center;
