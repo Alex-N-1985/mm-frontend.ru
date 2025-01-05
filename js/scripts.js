@@ -1,5 +1,5 @@
 const winState = document.getElementById("openModal");
-const searchState = document.getElementsByClassName("searchField");
+const searchState = document.getElementsByClassName("searchfield");
 const searchShow = document.getElementById("quicksearchshow");
 
 function modalWindowOpenClose(){
