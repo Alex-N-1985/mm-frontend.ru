@@ -17,7 +17,8 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid black;    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .header__cats {
@@ -89,7 +90,16 @@ header {
 main {
     width: 90%;
     padding: 2.5%;
-    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.breadcrumbs {
+    display: block;
+    font-size: 18px;    
+}
+
+.breadcrumbs > a {
+    color: #333333;
 }
 
 .catalog {
@@ -105,6 +115,11 @@ main {
     font-size: 48px;
     color: #333333;
     text-align: left;
+}
+
+.catalog h3 > a {
+    text-decoration: none;
+    color: #333333;
 }
 
 .catalog__container {
@@ -168,8 +183,10 @@ footer {
     padding: 2.5%;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-    border: 1px solid black;    
+    align-items: flex-start;    
+    background-color: azure;    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .footer__columns h3 {
