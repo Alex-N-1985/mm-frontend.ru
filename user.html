@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="headerup">
+            <div class="headerup__logo">                
+                <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+            </div>
+            <div class="headerup__usericons">
+                <div class="searchField">
+                    <input type="text" name="" id="searchData">
+                    <button><img src="./img/search.svg" alt=""></button>
+                </div>
+                <img src="./img/search.svg" alt="" id="quicksearchshow" onclick="quickSearchShow()">
+                <img src="./img/bag.svg" alt="">
+                <img src="./img/user.svg" alt="" onclick="modalWindowOpenClose()">
+            </div>
+        </div>
+        <div class="header__cats">
+            <p><a href="">Крепи</a></p>
+            <p><a href="">Конвейеры</a></p>
+            <p><a href="">Проходческие комбайны</a></p>
+            <p><a href="">Очистные комбайны</a></p>
+            <p><a href="">Электрооборудование</a></p>
+            <p><a href="">Электротранспорт</a></p>
+        </div>
+    </header>
+    <div id="openModal" class="modal-container">
+        <div class="modal-dialog">
+            <div class="uppericons">
+                <p onclick="modalWindowOpenClose()">X</p>
+            </div>            
+            <h4>Авторизация</h4>
+            <div class="modal-dialog__datafield">
+                <input type="text" placeholder="Login" id="login">
+            </div>
+            <div class="modal-dialog__datafield">
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <div class="modal-dialog__datafield">
+                <a href="./signin.html">Зарегистрироваться</a>
+                <button>LogIn</button>
+            </div>                
+        </div>
+    </div>
+    <main>
+        <p class="breadcrumbs"><a href="./index.html">Главная</a> > Пользователь</p>
+        <section class="userdata">
+            <div class="userdata__avatar">
+                <img src="./img/image-icon.png" alt="">
+            </div>
+            <div class="userdata__details">
+                <h3>Пользователь</h3>
+                <table>
+                    <tr>
+                        <td class="userdata__details-fieldname">Логин:</td>
+                        <td class="userdata__details-fielddata">User_01</td>
+                    </tr>
+                    <tr>
+                        <td class="userdata__details-fieldname">@mail:</td>
+                        <td class="userdata__details-fielddata">user_01@mail.com</td>
+                    </tr>
+                    <tr>
+                        <td class="userdata__details-fieldname">Название:</td>
+                        <td class="userdata__details-fielddata">ШахтОборудование</td>
+                    </tr>
+                    <tr>
+                        <td class="userdata__details-fieldname">Адрес:</td>
+                        <td class="userdata__details-fielddata">г. Москва</td>
+                    </tr>
+                    <tr>
+                        <td class="userdata__details-fieldname">Телефон:</td>
+                        <td class="userdata__details-fielddata">+79511862578</td>
+                    </tr>
+                    <tr>
+                        <td class="userdata__details-fieldname">Вид клиента</td>
+                        <td class="userdata__details-fielddata">Производитель</td>
+                    </tr>                    
+                </table>
+                <div class="userdata__details-buttons">
+                    <button>Редактирование</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__columns">
+            <h3>О Компании</h3>            
+            <p><a href="">Статьи</a></p>
+            <p><a href="">Партнеры</a></p>
+            <p><a href="./catalog.html">Каталоги</a></p>
+            <p><a href="">Информация</a></p>
+            <p><a href="./aboutus.html">О нас</a></p>
+            <p><a href="">Контакты</a></p>
+            <p><a href="">Доставка и оплата</a></p>            
+        </div>
+        <div class="footer__columns">
+            <h3>Каталог</h3>
+            <p><a href="">Крепи</a></p>
+            <p><a href="">Конвейеры</a></p>
+            <p><a href="">Проходческие комбайны</a></p>
+            <p><a href="">Очистные комбайны</a></p>
+            <p><a href="">Электрооборудование</a></p>
+            <p><a href="">Электротранспорт</a></p>
+        </div>
+        <div class="footer__columns">
+            <h3>Партнеры и клиенты</h3>
+            <p><a href="">Клиенты</a></p>
+            <p><a href="">ТЗГШО</a></p>
+            <p><a href="">Производители</a></p>
+        </div>
+    </footer>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
