@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Главная страница</title>
+        <title>Товар</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <header>
             <div class="headerup">
                 <div class="headerup__logo">                
-                    <img src="./img/logo.png" alt="">
+                    <a href="./index.html"><img src="./img/logo.png" alt=""></a>
                 </div>
                 <div class="headerup__usericons">
                     <div class="searchfield">
@@ -44,45 +44,21 @@
                     <input type="password" placeholder="Password" id="password">
                 </div>
                 <div class="modal-dialog__datafield">
-                    <a href="./signin.html">Зарегистрироваться</a>
+                    <a href="">Зарегистрироваться</a>
                     <button>LogIn</button>
                 </div>                
             </div>
         </div>
         <main>
-            <section class="catalog">
-                <h3><a href="./catalog.html">Каталог</a></h3>
-                <div class="catalog__container">
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/meh_krepi.jpg" alt="">
-                        <h4><a href="./goods.html">Механизированные крепи</a></h4>
+            <section class="gooddata">
+                <img src="./img/mcat_image/prohod_kombain.webp" alt="" srcset="">
+                <div class="gooddata__container">
+                    <h3>Проходческий комбайн</h3>
+                    <p class="gooddata__container-price">500000 p.</p>
+                    <div class="button__container-buttons">
+                        <p>Колличество: <input type="number" min="0" max="100"></p>
+                        <button>В корзину</button>
                     </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/konveyer.jpg" alt="">
-                        <h4><a href="./goods.html">Конвейеры</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/prohod_kombain.webp" alt="">
-                        <h4><a href="./goods.html">Проходческие комбайны</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/ochist-combainy.jpg" alt="">
-                        <h4><a href="./goods.html">Очистные комбайны</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/postanciya.webp" alt="">
-                        <h4><a href="./goods.html">Электрооборудование</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/elektrovoz.webp" alt="">
-                        <h4><a href="./goods.html">Электротранспорт</a></h4>
-                    </div>
-                </div>
-            </section>
-            <section class="statpage">
-                <h3><a href="./aboutus.html">Маркет горнодобывающего оборудования</a></h3>
-                <div class="statpage__content">
-                    Подробности о нашей компании
                 </div>
             </section>
         </main>

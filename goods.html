@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Главная страница</title>
+        <title>Товары</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <header>
             <div class="headerup">
                 <div class="headerup__logo">                
-                    <img src="./img/logo.png" alt="">
+                    <a href="./index.html"><img src="./img/logo.png" alt=""></a>
                 </div>
                 <div class="headerup__usericons">
                     <div class="searchfield">
@@ -44,45 +44,48 @@
                     <input type="password" placeholder="Password" id="password">
                 </div>
                 <div class="modal-dialog__datafield">
-                    <a href="./signin.html">Зарегистрироваться</a>
+                    <a href="">Зарегистрироваться</a>
                     <button>LogIn</button>
-                </div>                
+                </div>
+                
             </div>
         </div>
         <main>
-            <section class="catalog">
-                <h3><a href="./catalog.html">Каталог</a></h3>
-                <div class="catalog__container">
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/meh_krepi.jpg" alt="">
-                        <h4><a href="./goods.html">Механизированные крепи</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/konveyer.jpg" alt="">
-                        <h4><a href="./goods.html">Конвейеры</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/prohod_kombain.webp" alt="">
-                        <h4><a href="./goods.html">Проходческие комбайны</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/ochist-combainy.jpg" alt="">
-                        <h4><a href="./goods.html">Очистные комбайны</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/postanciya.webp" alt="">
-                        <h4><a href="./goods.html">Электрооборудование</a></h4>
-                    </div>
-                    <div class="catalog__container-item">
-                        <img src="./img/mcat_image/elektrovoz.webp" alt="">
-                        <h4><a href="./goods.html">Электротранспорт</a></h4>
-                    </div>
+            <p class="breadcrumbs"><a href="./index.html">Главная</a> > <a href="./catalog.html">Каталог</a> > Товары</p>
+            <section class="goodslist">                
+                <div class="goodslist__sidepanel">
+                    <h4>Категории</h4>
+                    <ul>
+                        <li><a href="./goods.html">Крепи</a></li>
+                        <li><a href="./goods.html">Конвейеры</a></li>
+                        <li><a href="./goods.html">Проходческие комбайны</a></li>
+                        <li><a href="./goods.html">Очистные комбайны</a></li>
+                        <li><a href="./goods.html">Электрооборудование</a></li>
+                        <li><a href="./goods.html">Электротранспорт</a></li>
+                    </ul>
                 </div>
-            </section>
-            <section class="statpage">
-                <h3><a href="./aboutus.html">Маркет горнодобывающего оборудования</a></h3>
-                <div class="statpage__content">
-                    Подробности о нашей компании
+                <div class="goodslist__container">
+                    <div class="goodslist__container-item">
+                        <img src="./img/mcat_image/elektrovoz.webp" alt="">
+                        <h5><a href="./good.html">Электровоз ЭТШ-250</a></h5>
+                        <p>500000р</p>
+                    </div>
+                    <div class="goodslist__container-item">
+                        <img src="./img/mcat_image/konveyer.jpg" alt="">
+                        <h5><a href="./good.html">Конвейер ленточный КЛШ-2000</a></h5>
+                        <p>300000р</p>
+                    </div>
+                    <div class="goodslist__container-item">
+                        <img src="./img/mcat_image/meh_krepi.jpg" alt="">
+                        <h5><a href="./good.html">Механизированная крепь МК-600</a></h5>
+                        <p>250000р</p>
+                    </div>
+                    <div class="goodslist__container-item">
+                        <img src="./img/mcat_image/postanciya.webp" alt="">
+                        <h5><a href="./good.html">Передвижная подстанция</a></h5>
+                        <p>750000р</p>
+                    </div>
+                    
                 </div>
             </section>
         </main>
