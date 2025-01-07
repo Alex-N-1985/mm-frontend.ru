@@ -22,3 +22,11 @@ function regFieldsReset(){
     document.getElementById("registration__cell-confpas").value = "";
     document.getElementById("registration__cell-email").value = "";    
 }
+
+function onAddOnCart() {
+    window.location.href = "./cart.html";
+}
+
+function toPayout() {
+    window.location.href = "./payout.html";
+}
