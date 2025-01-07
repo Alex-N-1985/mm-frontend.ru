@@ -50,7 +50,54 @@
             </div>
         </div>
         <main>
-            
+            <h3>Оформление заказа</h3>
+            <p class="breadcrumbs"><a href="./index.html">Главная</a> > Оформление заказа </p>
+            <section class="payout">
+                <div class="payout__forms">
+                    <h4>Тип плательщика</h4>
+                    <div class="payout__forms-container">                       
+                        <input type="radio" value="Частное лицо">Частное лицо
+                        <input type="radio" value="Юридическое лицо" checked>Юридическое лицо                        
+                    </div>
+                    <hr color="black" width="100%" size="2"/>
+                    <h4>Информация о покупателе</h4>
+                    <input type="text" placeholder="ФИО">
+                    <input type="text" placeholder="Телефон">
+                    <input type="text" placeholder="EMail">
+                    <input type="text" placeholder="Адрес Доставки">
+                    <hr color="black" width="100%" size="2"/>
+                    <h4>Способ оплаты</h4>
+                    <div class="payout__forms-container">
+                        <input type="radio" value="Наличными">Частное лицо
+                        <input type="radio" value="Онлайн" checked>Юридическое лицо                        
+                    </div>
+                    <hr color="black" width="100%" size="2"/>
+                    <h4>Дополнительно</h4>
+                    <input type="text" placeholder="Дополнительно">
+                </div>
+                <div class="payout__calculation">
+                    <h4>Ваш заказ</h4>
+                    <div class="payout__calculation-column">
+                        <p>Товары:</p>
+                        <p>1500000 p</p>
+                    </div>
+                    <div class="payout__calculation-column">
+                        <p>Скидка:</p>
+                        <p>0%</p>
+                    </div>
+                        <hr color="black" width="100%" size="2"/>
+                        <div class="payout__calculation-column">
+                            <p>Доставка:</p>
+                            <p>1500000 р</p>
+                        </div>
+                        <div class="payout__calculation-column">
+                            <p><b>Итого:</b></p>
+                            <p><b>1500000 р</b></p>
+                        </div>
+                    <button onclick="payoutClick()">Оплатить</button>
+                    <p>Нажимая кнопку отправить вы даете согласие на обработку пресональных данных</p>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="footer__columns">

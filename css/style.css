@@ -637,7 +637,7 @@ footer {
     border: 1px solid black;
 }
 
-.cart__calcdata h4 {
+.cart__calcdata > h4 {
     width: 100%;
     font-size: 20px;
     font-weight:bold;
@@ -733,3 +733,114 @@ footer {
     color: black;
 }
 
+.payout {
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.payout__forms {
+    width: 70%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.payout__forms-container {
+    width: 100%;
+    font-size: 14px;
+    color: black;  
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+.payout__calculation {
+    width: 25%;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.payout__forms {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.payout__forms > input {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.payout__calculation > h4, .payout__forms > h4{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.payout__calculation-column {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+}
+
+.payout__calculation button {
+    display: block;
+    width: 90%;
+    height: 70px;
+    background-color: red;
+}
+
+.payout__calculation p {
+    font-size: 16px;
+    color: #333333;
+    text-align: justify;
+}
+
+.payoutsuccess {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.payoutsuccess p {
+    width: 100%;
+    font-size: 20px;
+    color: #333333;
+    text-align: justify;
+}
+
+.payoutsuccess__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.payoutsuccess__container a {
+    display: block;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.payoutsuccess__container a:hover {
+    text-decoration: underline;
+}

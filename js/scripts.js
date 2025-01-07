@@ -30,3 +30,7 @@ function onAddOnCart() {
 function toPayout() {
     window.location.href = "./payout.html";
 }
+
+function payoutClick() {
+    window.location.href = "./payoutsucces.html";
+}
