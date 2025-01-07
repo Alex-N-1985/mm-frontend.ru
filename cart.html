@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Товар</title>
+        <title>Корзина</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -50,17 +50,52 @@
             </div>
         </div>
         <main>
-            <section class="gooddata">
-                <img src="./img/mcat_image/prohod_kombain.webp" alt="" srcset="">
-                <div class="gooddata__container">
-                    <h3>Проходческий комбайн</h3>
-                    <p class="gooddata__container-price">500000 p.</p>
-                    <div class="button__container-buttons">
-                        <p>Колличество: <input type="number" min="0" max="100"></p>
-                        <button>В корзину</button>
+            <h3>Корзина</h3>
+            <p class="breadcrumbs"><a href="./index.html">Главная</a> > Корзина </p>            
+            <div class="cart">                
+                <div class="cart__shoplist">
+                    <div class="cart__shoplist-item">
+                        <img src="./img/mcat_image/elektrovoz.webp" alt="">
+                        <div class="itemcontainer">
+                            <h4>Электровоз ЭВШ-1000</h4>
+                            <p>250000 р</p>
+                            <div class="itemcontainer__buttons">
+                                <button>Удалить</button>
+                                <input type="number" min="0" max="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart__shoplist-item">
+                        <img src="./img/mcat_image/konveyer.jpg" alt="">
+                        <div class="itemcontainer">
+                            <h4>Ленточный конвеёер ЛКТ-2000</h4>
+                            <p>200000 р</p>
+                            <div class="itemcontainer__buttons">
+                                <button>Удалить</button>
+                                <input type="number" min="0" max="100">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
+                <div class="cart__calcdata">
+                    <h4>Ваша корзина</h4>
+                    <div class="cart__calcdata-column">
+                        <p>Товары:</p>
+                        <p>1500000 p</p>
+                    </div>
+                    <div class="cart__calcdata-column">
+                        <p>Скидка:</p>
+                        <p>0%</p>
+                    </div>
+                    <hr color="black" width="100%" size="2"/>
+                    <div class="cart__calcdata-column">
+                        <p>Итого:</p>
+                        <p>1500000 р</p>
+                    </div>
+                    <button>Перейти к оформлению</button>
+                    <p>На следующем шаге Вы сможете выбрать способ получения и оплаты</p>
+                </div>
+            </div>
         </main>
         <footer>
             <div class="footer__columns">
